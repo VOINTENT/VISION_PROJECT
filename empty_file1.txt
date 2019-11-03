@@ -1,2 +1,0 @@
-This is a Grishin Andrey trial commit.
-There are changes on the new branch.
