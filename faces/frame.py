@@ -21,7 +21,6 @@ while True:
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
 
     for (x, y, w, h) in faces:
-        # TODO: Rename coordinates
         gray_image = gray[y:y+h, x:x+w]
         size = gray_image.shape[0]
         resize_coeff_to_96x96 = size / 96
@@ -34,12 +33,12 @@ while True:
         for x_point, y_point in zip(list_x, list_y):
             cv2.circle(img, (x+int(x_point * resize_coeff_to_96x96), y+int(y_point * resize_coeff_to_96x96)), RADIUS, RED)
 
-        plt.figure()
-        plt.imshow(imgarr, cmap='gray')
-        plt.colorbar()
-        plt.grid(False)
-        plt.scatter(list_x, list_y, c='red', s=12)
-        plt.show()
+        # plt.figure()
+        # plt.imshow(imgarr, cmap='gray')
+        # plt.colorbar()
+        # plt.grid(False)
+        # plt.scatter(list_x, list_y, c='red', s=12)
+        # plt.show()
 
         # break
 

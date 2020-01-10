@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea3c6296-178b-448a-b5d4-4e8a0200ad18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/key_points/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/key_points/data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/key_points/model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/key_points/network.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/key_points/show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VISION_PROJECT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VISION_PROJECT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces/frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/faces/frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hands/data/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hands/data/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hands/data/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hands/data/initial_images/IMG_20191109_160844.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hands/data/initial_images/IMG_20191109_160844.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hands/data/initial_images/IMG_20191109_160851.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hands/data/json/1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hands/data/json/2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hands/data/json/3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,29 +24,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faces/frame.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hands/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="128">
+              <caret line="169" column="27" lean-forward="true" selection-start-line="169" selection-start-column="27" selection-end-line="169" selection-end-column="27" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/faces/test.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hands/data/json/IMG_20191109_160403.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hands/data/resized_images/IMG_20191109_160403.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hands/data/resized_json/IMG_20191109_160403.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hands/utils.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -63,9 +83,12 @@
       <list>
         <option value="$PROJECT_DIR$/faces/app.py" />
         <option value="$PROJECT_DIR$/faces/network.py" />
-        <option value="$PROJECT_DIR$/faces/data.py" />
-        <option value="$PROJECT_DIR$/faces/frame.py" />
         <option value="$PROJECT_DIR$/faces/test.py" />
+        <option value="$PROJECT_DIR$/hands/utils.py" />
+        <option value="$PROJECT_DIR$/faces/frame.py" />
+        <option value="$PROJECT_DIR$/faces/data.py" />
+        <option value="$PROJECT_DIR$/hands/data/backup/Вопросы.txt" />
+        <option value="$PROJECT_DIR$/hands/data.py" />
       </list>
     </option>
   </component>
@@ -83,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,21 +117,49 @@
             <path>
               <item name="VISION_PROJECT" type="b2602c69:ProjectViewProjectNode" />
               <item name="VISION_PROJECT" type="462c0819:PsiDirectoryNode" />
-              <item name="faces" type="462c0819:PsiDirectoryNode" />
+              <item name="hands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VISION_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VISION_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="hands" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VISION_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VISION_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="hands" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="backup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VISION_PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VISION_PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="hands" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="resized_json" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/git/medicalhistory-backend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\Documents\VISION_PROJECT\hands\data\test_images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\Documents\VISION_PROJECT\hands\data\json" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,17 +184,22 @@
       <option name="presentableId" value="Default" />
       <updated>1578241295582</updated>
       <workItem from="1578241301177" duration="9936000" />
-      <workItem from="1578314302788" duration="903000" />
+      <workItem from="1578314302788" duration="1501000" />
+      <workItem from="1578316235122" duration="13743000" />
+      <workItem from="1578389120788" duration="13343000" />
+      <workItem from="1578462567198" duration="744000" />
+      <workItem from="1578497402651" duration="93000" />
+      <workItem from="1578574029199" duration="5112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10839000" />
+    <option name="totallyTimeSpent" value="44472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.211126" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19101876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -156,12 +213,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932975" weight="0.32914925" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.23570432" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" visible="true" weight="0.28730822" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.21617852" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -191,85 +248,184 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RenderBurst.py" />
-    <entry file="file://$PROJECT_DIR$/script.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_161636.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/resized_images/IMG_20191109_161450.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/csv/training" />
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_161004.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_161429.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_161450.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_161621.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_161636.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_161832.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_161943.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/resized_images/1.png" />
+    <entry file="file://$PROJECT_DIR$/hands/data/test_images/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/hands/data/csv/test" />
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_160629.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_160713.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/resized_images/IMG_20191109_160553.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/resized_images/IMG_20191109_160742.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_160916.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_160844.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_160833.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_160821.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_160742.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_161004.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_161621.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_161614.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_160924.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_161429.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_161432.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_161450.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_161446.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_160713.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images_with_keypoints/IMG_20191109_160629.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/test_images/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/test_images/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/test_images/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/test_images/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/csv/training.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        <state relative-caret-position="21">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faces/result_data/3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/result_data/2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hands/data/initial_images/IMG_20191109_160403.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/hands/data/csv/test.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/faces/data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="210">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faces/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="207">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faces/test_data/2_1.json">
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_160403.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/images/IMG_20191109_160553.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/resized_images/IMG_20191109_160629.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/backup/Вопросы.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/utils.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/faces/test_data/2_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/test_data/3_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/test_data/2_3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/test_data/2_1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/result_data/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/result_data/0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faces/test.py">
+    <entry file="file://$PROJECT_DIR$/hands/data/json/IMG_20191109_160403.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="84">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/resized_images/IMG_20191109_160403.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data/resized_json/IMG_20191109_160403.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hands/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="169" column="27" lean-forward="true" selection-start-line="169" selection-start-column="27" selection-end-line="169" selection-end-column="27" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
